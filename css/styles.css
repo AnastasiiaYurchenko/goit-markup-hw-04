@@ -258,6 +258,16 @@ img {
   margin-right: 30px;
 }
 
+.features-icon-wrap{
+  width: 100%;
+  height: 120px;
+  background-color: #F5F4FA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
 /* Work styles */
 
 .work-title,
@@ -392,7 +402,7 @@ img {
 
 .clients-link:hover,
 .clients-link:focus{
-  border: 1px solid var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 .clients-link:hover .client-icon,
@@ -438,9 +448,6 @@ fill: var(--accent-color);
   color: var(--accent-color);
 }
 
-.footer-social-wrap{
-
-}
 .footer-social-text{
   font-weight: 700;
 font-size: 14px;
