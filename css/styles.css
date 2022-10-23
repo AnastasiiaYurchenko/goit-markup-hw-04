@@ -126,6 +126,8 @@ img {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
   padding: 32px 0;
+  display: flex;
+  align-items: center;
 }
 
 .header-contacts-item:hover,
@@ -179,6 +181,7 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
   max-width: 1600px;
+  height: 600px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg.jpg);
   background-position: center;
   background-size: cover;
@@ -363,11 +366,7 @@ img {
 .social-link:hover,
 .social-link:focus {
   background-color: var(--accent-color);
-}
-
-.social-link:hover .social-icon,
-.social-link:focus .social-icon {
-  fill: var(--main-background-color);
+  color: var(--main-background-color);
 }
 
 /*  Clients styles */
@@ -391,7 +390,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #afb1b8;
+  border: 1px solid currentColor;
+  /*  border: 1px solid #afb1b8; */
   border-radius: 4px;
   color: var(--icons-color);
 }
@@ -402,12 +402,8 @@ img {
 
 .clients-link:hover,
 .clients-link:focus {
-  border-color: var(--accent-color);
-}
-
-.clients-link:hover .client-icon,
-.clients-link:focus .client-icon {
-  fill: var(--accent-color);
+  /* border-color: var(--accent-color); */
+  color: var(--accent-color);
 }
 
 /*  Footer styles */
